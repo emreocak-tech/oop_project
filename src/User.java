@@ -1,3 +1,5 @@
+package com.mycompany.mentalproject;
+
 public abstract class User extends Person {
     private String username;
     private String password;

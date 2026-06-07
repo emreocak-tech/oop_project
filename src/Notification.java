@@ -1,3 +1,5 @@
+package com.mycompany.mentalproject;
+
 public abstract class Notification {
     protected String message;
     protected boolean isRead;

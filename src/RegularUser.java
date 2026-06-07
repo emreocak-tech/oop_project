@@ -1,3 +1,5 @@
+package com.mycompany.mentalproject;
+
 public class RegularUser extends User{
     private String email;
     public RegularUser(String email,String username,String password,String name,String id){

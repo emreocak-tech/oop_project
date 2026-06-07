@@ -1,3 +1,5 @@
+package com.mycompany.mentalproject;
+
 public class ReminderNotification extends Notification{
     private String reminderType;
     private int repeatInterval;

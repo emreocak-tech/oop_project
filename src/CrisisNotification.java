@@ -1,3 +1,5 @@
+package com.mycompany.mentalproject;
+
 public class CrisisNotification extends Notification{
     private String crisisLevel;
     private String recommendAction;

@@ -1,3 +1,5 @@
+package com.mycompany.mentalproject;
+
 public class AnonymousUser extends User{
     private boolean active;
     public AnonymousUser(boolean active,String username,String password,String name,String id){

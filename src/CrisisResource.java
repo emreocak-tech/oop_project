@@ -1,3 +1,5 @@
+package com.mycompany.mentalproject;
+
 public class CrisisResource {
     private String name;
     private String phoneNumber;

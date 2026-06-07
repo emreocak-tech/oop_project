@@ -1,3 +1,5 @@
+package com.mycompany.mentalproject;
+
 public abstract class Person {
     protected String name;
     protected String id;
