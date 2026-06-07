@@ -1,1 +1,1 @@
-# Mental Health is Overrated
+# MentalHealthProject
