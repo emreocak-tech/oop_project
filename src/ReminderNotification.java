@@ -5,6 +5,8 @@ public class ReminderNotification extends Notification{
     private int repeatInterval;
     public ReminderNotification(String reminderType,int repeatInterval,String message,boolean isRead){
         super(message,isRead);
+        this.reminderType=reminderType;
+        this.repeatInterval=repeatInterval;
     }
     @Override
     public void send(){
