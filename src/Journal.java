@@ -13,8 +13,8 @@ class JournalEntry {
     }
 
     void display() {
-        System.out.println("📅 Tarih: " + this.date);
-        System.out.println("📝 Not: " + this.content);
+        System.out.println("Date: " + this.date);
+        System.out.println("Note: " + this.content);
     }
 }
 
@@ -27,13 +27,13 @@ public class Journal {
 
     void addEntry(String date, String content) {
         this.entries.add(new JournalEntry(date, content));
-        System.out.println("✅ Günlük kaydı başarıyla eklendi! (" + date + ")");
+        System.out.println("[SUCCESS] Journal entry added successfully! (" + date + ")");
     }
 
     void showAllEntries() {
-        System.out.println("\n--- 📖 GÜNLÜK KAYITLARI ---");
+        System.out.println("\n--- JOURNAL ENTRIES ---");
         if (entries.isEmpty()) {
-            System.out.println("Günlük şu an boş, yazmaya başla!");
+            System.out.println("Journal is currently empty, start writing!");
             return;
         }
         
