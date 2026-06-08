@@ -1,8 +1,8 @@
 package com.mycompany.mentalproject;
 
 public abstract class Person {
-    protected String name;
-    protected String id;
+    private String name;
+    private String id;
     public Person(String name,String id){
         this.name=name;
         this.id=id;
